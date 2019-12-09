@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_register_service" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yoneco.ict.tithandizane"
+    android:background="#ffffff">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_margin="5dp"
+        tools:showIn="@layout/activity_register_service"
+        android:orientation="vertical"
+        tools:context="com.yoneco.ict.tithandizane.org.yoneco.ict.tithandizane.RegisterService"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Organisation"
+            android:id="@+id/textView12"
+            android:padding="7dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@color/textColorBlue" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/org_name"
+            android:textColor="@color/textBlack"
+            android:hint="Organization Name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/org_email"
+            android:hint="Organization Email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/org_number"
+            android:textColor="@color/textBlack"
+            android:hint="Organization Phone Number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/focal_name"
+            android:hint="Focal Person" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/focal_person_num"
+            android:hint="Focal Person Number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/org_descript"
+            android:hint="Organization Description" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:id="@+id/register_org"
+            android:background="@drawable/rounded_button"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

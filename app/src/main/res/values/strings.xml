@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Helpline Services</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_report_abuse">Tithandizane</string>
+    <string name="title_activity_service_providers">Tithandizane</string>
+    <string name="title_activity_maps_service">Tithandizane</string>
+    <string-array name="districts">
+        <item>Dedza</item>
+        <item>Dowa</item>
+        <item>Kasungu</item>
+        <item>Lilongwe</item>
+        <item>Mchinji</item>
+        <item>Nkhotakota</item>
+        <item>Ntcheu</item>
+        <item>Ntchisi</item>
+        <item>Salima</item>
+        <item>Chitipa</item>
+        <item>Karonga</item>
+        <item>Likoma</item>
+        <item>Mzimba</item>
+        <item>Nkhata Bay</item>
+        <item>Rumphi</item>
+        <item>Balaka</item>
+        <item>Blantyre</item>
+        <item>Chikwawa</item>
+        <item>Chiradzulu</item>
+        <item>Machinga</item>
+        <item>Mangochi</item>
+        <item>Mulanje</item>
+        <item>Mwanza</item>
+        <item>Nsanje</item>
+        <item>Thyolo</item>
+        <item>Phalombe</item>
+        <item>Zomba</item>
+        <item>Neno</item>
+    </string-array>
+    <string-array name="perpetrators">
+        <item>Husband</item>
+        <item>wife</item>
+        <item>father</item>
+        <item>stepfather</item>
+        <item>Uncle</item>
+        <item>grandmother</item>
+        <item>mother</item>
+        <item>neighbour</item>
+        <item>stranger</item>
+        <item>peer</item>
+        <item>schoolmate</item>
+        <item>workmate</item>
+    </string-array>
+    <string-array name="abuse_type">
+        <item>Abuse and violence</item>
+        <item>Commercial exploitation</item>
+        <item>Differently-abled children</item>
+        <item>Sexuality and relationships</item>
+        <item>Family relationships</item>
+        <item>Psycho-social</item>
+        <item>Mental health</item>
+        <item>Physical health</item>
+        <item>Information seeking</item>
+        <item>Discrimination</item>
+        <item>Helpline Services</item>
+        <item>Feedback on Helpline Services</item>
+        <item>Land disputes</item>
+        <item>Legal matters</item>
+        <item>Child substance and abuse</item>
+        <item>Peer relationships</item>
+        <item>School related</item>
+        <item>Homeless or runaways</item>
+        <item>HIV-AIDS</item>
+        <item>Deceased estate/property grabbing</item>
+        <item>Gender Based Violence</item>
+
+    </string-array>
+    <string name="title_activity_srh">SrhActivity</string>
+    <string name="title_activity_rss_web_view">RssWebView</string>
+    <string name="title_activity_service_directory">ServiceDirectory</string>
+    <string name="title_activity_register_user">RegisterUser</string>
+    <string name="title_activity_register_service">RegisterService</string>
+    <string name="title_activity_provider_details">providerDetails</string>
+    <string name="about_text">(a)	The Helpline Services App lets you report any form of abuse and violence including child abuse and neglect, rape defilement and gender-based violence. You can also talk to counsellors through toll free lines on issues like mental health and access an online directory of service providers across Malawi.\n\n
+(b)	GBV and VAC Reporting: Child Care, Justice and Protection (2010) Act provides that not reporting for abuse is a crime. The app lets you report abuse cases anonymously. \n\n
+(c)	 SOS Panic Button: The panic button allows a victim to report without the abuser knowing it and therefore immediately links to service providers within the reach of the caller or report to the nearest service provider and to YONECO SOS system. The SOS sends a coded message and the location of the incident which makes the whole process easier to manage. The geo point can be checked with our internal referral system on line. This entails that the service provider can then take immediate action to support the victims within reach. \n\n
+(d)	 Direct Press Buttons to Helpline Services: The direct Helpline Service Call (toll-free) for users to seek counselling or report an abuse or information on issues affecting youth, women and children which include: 116 child helpline, 5600 for GBV and 6600 for Drug and Substance abuse\n\n
+(e)	 Service Directory: Provides the opportunity for service providers like health centers, counselling providers, etc. to register for provision of services. YONECO validates the existence of the services registered on the application to ascertain their operations and services\n\n
+(f)	Tips provides safety information on daily basis to ensure that women and girls are safe at all levels. The tips also include information on health and GBV
+</string>
+</resources>
+

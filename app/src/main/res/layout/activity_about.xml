@@ -1,0 +1,13 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/about_text"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/textBlack"
+        android:textSize="18sp"/>
+
+</ScrollView>
